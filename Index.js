@@ -25,5 +25,5 @@ console.info("✅ Final del programa");
 
 }
 
-mostrarEstado();
+mostrarEstado(); //llama a la función mostrarEstado
 

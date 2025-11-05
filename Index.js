@@ -16,14 +16,6 @@ function saludar(nombre) {
 
 // Prueba de función
 
-function simularerror() {
-  console.warn(chalk.yellow("⚠ Advertencia: el sistema detectó algo inusual."));
-  console.error(chalk.red("❌ Upsi error."));
-  console.log(chalk.green("✅ Recuperación: el sistema se recupero."));
-}
-
-simularerror();
-
 function mostrarEstado() {
 
 console.info("💹 Inicio del programa");
@@ -36,4 +28,16 @@ console.info("✅ Final del programa");
 }
 
 mostrarEstado(); //llama a la función mostrarEstado
+
+// Simulación de un error con colores
+
+function simularerror() {
+  console.warn(chalk.yellow("⚠ Advertencia: el sistema detectó algo inusual."));
+  console.error(chalk.red("❌ Upsi error."));
+  console.log(chalk.green("✅ Recuperación: el sistema se recupero."));
+}
+
+simularerror();
+
+
 

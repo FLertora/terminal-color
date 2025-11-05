@@ -25,5 +25,13 @@ console.info("✅ Final del programa");
 
 }
 
-mostrarEstado();
+// Funciòn de error
+function simularError() {
+  console.warn(chalk.yellow("⚠️ Advertencia: se detectó un comportamiento inesperado."));
+  console.error(chalk.red("❌ Error: el sistema encontró un problema crítico."));
+  console.log(chalk.green("✅ Recuperación completa: el sistema volvió a la normalidad."));
+}
+
+// Llamada
+simularError();
 

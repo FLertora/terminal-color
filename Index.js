@@ -14,6 +14,30 @@ function saludar(nombre) {
   console.log(chalk.cyan(`Hola ${nombre}, ¡bienvenido al mundo JavaScript! 🌍`));
 }
 
+feature/equipoB
+// Prueba de función
+saludar("Equipo JS");
+
+
+
+
+
+
+
+
+
+
+
+
+
+function simularerror() {
+  console.warn(chalk.yellow("⚠ Advertencia: el sistema detectó algo inusual."));
+  console.error(chalk.red("❌ Upsi error."));
+  console.log(chalk.green("✅ Recuperación: el sistema se recupero."));
+}
+
+simularerror();
+=======
 function mostrarEstado() {
 
 console.info("💹 Inicio del programa");
@@ -27,3 +51,4 @@ console.info("✅ Final del programa");
 
 mostrarEstado(); //llama a la función mostrarEstado
 
+main

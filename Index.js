@@ -14,40 +14,9 @@ function saludar(nombre) {
   console.log(chalk.cyan(`Hola ${nombre}, ¡bienvenido al mundo JavaScript! 🌍`));
 }
 
-feature/equipoB
+//feature/equipoB
 // Prueba de función
 saludar("Equipo JS");
-
-
-
-
-
-
-
-
-
-
-
-
-
-function simularerror() {
-  console.warn(chalk.yellow("⚠ Advertencia: el sistema detectó algo inusual."));
-  console.error(chalk.red("❌ Upsi error."));
-  console.log(chalk.green("✅ Recuperación: el sistema se recupero."));
-}
-
-simularerror();
-=======
-function mostrarEstado() {
-
-console.info("💹 Inicio del programa");
-saludar("Equipo JS");
-
-console.log("🔄 Procesando datos...");
-
-console.info("✅ Final del programa");
-
-}
 
 // Funciòn de error
 function simularError() {
@@ -59,4 +28,3 @@ function simularError() {
 // Llamada
 simularError();
 
-main

@@ -15,3 +15,23 @@ function saludar(nombre) {
 
 // Prueba de función
 saludar("Equipo JS");
+
+
+
+
+
+
+
+
+
+
+
+
+
+function simularerror() {
+  console.warn(chalk.yellow("⚠ Advertencia: el sistema detectó algo inusual."));
+  console.error(chalk.red("❌ Upsi error."));
+  console.log(chalk.green("✅ Recuperación: el sistema se recupero."));
+}
+
+simularerror();

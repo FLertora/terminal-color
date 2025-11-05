@@ -2,6 +2,7 @@
   "name": "terminal-color",
   "version": "1.0.0",
   "description": "Este ejercicio busca que el equipo:",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +14,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/Flertora/terminal-color/issues"
   },

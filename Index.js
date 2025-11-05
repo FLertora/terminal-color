@@ -1,17 +1,29 @@
 // Importamos la librería chalk
-import chalk from 'chalk';
+import chalk from "chalk";
 
-// Mensajes iniciales
-console.log(chalk.blue('👋 ¡Bienvenido a la Terminal Parlante!'));
-console.info(chalk.green('ℹ️ Esta terminal está viva... y tiene estilo.'));
-console.warn(chalk.yellow('⚠️ Atención: Esto puede ponerse colorido.'));
-console.error(chalk.red('❌ Error simulado: algo salió demasiado bien.'));
-console.log(chalk.magenta('💡 Recuerda: la práctica hace al programador.'));
+// Mensajes de ejemplo con colores
 
-// BONUS: función básica
+console.log(chalk.blue("👋 ¡Bienvenido a la Terminal Parlante!"));
+console.info(chalk.green("ℹ️ Esta terminal está viva... y tiene estilo."));
+console.warn(chalk.yellow("⚠️ Atención: Esto puede ponerse colorido."));
+console.error(chalk.red("❌ Error simulado: algo salió demasiado bien."));
+console.log(chalk.magenta("💡 Recuerda: la práctica hace al programador."));
+
+// Funciones
 function saludar(nombre) {
   console.log(chalk.cyan(`Hola ${nombre}, ¡bienvenido al mundo JavaScript! 🌍`));
 }
 
-// Prueba de función
+function mostrarEstado() {
+
+console.info("💹 Inicio del programa");
 saludar("Equipo JS");
+
+console.log("🔄 Procesando datos...");
+
+console.info("✅ Final del programa");
+
+}
+
+mostrarEstado();
+
